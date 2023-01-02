@@ -1,11 +1,9 @@
 import Address from "./Components/Address"
-// import Experience from "./Components/Experience"
-// import Education from "./Components/Education"
-// import Skills from "./Components/Skills"
-// import Objective from "./Components/Objective"
-// import ResumeContent from "./Components/ResumeContent"
-import resumeData from "../src/resumeData"
+import Projects from "./Components/Projects"
+import {resumeData,projectData} from "../src/resumeData"
 import ResumeContent from "./Components/ResumeContent";
+console.log(resumeData, projectData)
+projectData.map((data)=>console.log(data))
 
 function App() {
   
@@ -22,11 +20,7 @@ function App() {
       school={resumeData.school}
       paragraphs={resumeData.paragraphs}
       />)}
-      {/* <Experience />
-      <Education />
-      <Skills />
-      <Objective /> 
-      <Projects /> */}
+      <Projects projectData={projectData}/>
     </div>
   )
 }

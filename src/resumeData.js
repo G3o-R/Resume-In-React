@@ -14,14 +14,18 @@ const resumeData = [
              "Quick learner with an ability to recognize patterns extremely fast.",
              "Excellent written and verbal communication skills.", 
              "Exceptional work ethic with  the drive to maintain it."],
-            id:2
+            id:3
         },
             {header:"Objectives",
             paragraphs:["To grow a career within the tech industry and improve upon my ingenuity in order to present myself as a much more valuable asset."],
-            id:2
-        }
+            id:4
+        }    
+]
 
-
+const projectData = [
+    {link:"https://github.com/G3o-R/resume-in-react",
+     name:"resume-in-react"
+},
     
 ]
-export default resumeData
+export {resumeData, projectData}
