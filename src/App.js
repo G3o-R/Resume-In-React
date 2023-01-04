@@ -12,7 +12,7 @@ function App() {
       <div className="top">
       <div className ="name">
       <h1 id="full-name">Gerardo Rapeta</h1>
-      <p id="nickname">"Geo" Rapeta</p>
+      <p id="nick-name">"Geo" Rapeta</p>
     </div>
     
       <Address />

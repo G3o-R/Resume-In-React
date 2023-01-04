@@ -5,7 +5,12 @@ function Projects({projectData}){
 return(
     <div id="Projects">
         <h3 className="header">Projects</h3>
-        {projectData.map((projectData)=><a href={projectData.link} key={projectData.name}>{projectData.name}</a>)}
+        {projectData.map((projectData)=>{
+        return (<>
+        <h2>{projectData.name}</h2>
+        <a href={projectData.link} key={projectData.name}>{projectData.name}</a>
+        </>
+        )})}
     </div>
 )
 }

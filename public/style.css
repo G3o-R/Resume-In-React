@@ -1,0 +1,87 @@
+.header{
+    color: #2079c7;
+    font-family: sans-serif ;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: rgb(233, 239, 245);
+    flex-wrap: wrap;
+}
+
+#contact{
+font-weight: bold;
+}
+
+.paragraph-content{
+    font-size: 17px;
+    line-height: 24px;
+    color:gray;
+}
+
+.school{
+    color:gray;
+}
+
+#full-name{
+    font-size:60px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#nick-name{
+    color: gray;
+}
+
+.resume{
+    padding: 70px;
+    background-color: rgb(255, 255, 255);
+    width: 850px;
+    height: 1100px;
+    justify-content: center;
+}
+
+.top {
+ display: grid;
+ gap: 1rem;
+ grid-template-columns: 500px 160px;
+}
+
+.content{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: 500px 210px;
+    grid-template-areas: 
+    "experience skills"
+    "education skills"
+    "projects objectives";
+}
+
+
+
+
+#Experience{
+    grid-area: experience;
+}
+
+#Education{
+    grid-area: education;
+}
+
+#Skills{
+    grid-area: skills;
+}
+
+#Objectives{
+    grid-area: objectives;
+}
+
+#Projects{
+    grid-area: projects;
+}

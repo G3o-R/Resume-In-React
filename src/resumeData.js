@@ -24,7 +24,8 @@ const resumeData = [
 
 const projectData = [
     {link:"https://github.com/G3o-R/resume-in-react",
-     name:"resume-in-react"
+     name:"resume-in-react",
+     summary:"A mock recreation of my resume using onlys React, JavaScript, and css "
 },
     
 ]
